@@ -1,0 +1,238 @@
+
+html, body {
+   height: 100%;
+   background: #fef6f6;
+}
+.header {
+    background-image: linear-gradient( #e9e9e9b2, #e9e9e9), url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header_time{
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.row {
+    padding-top: 15px;
+}
+.header_layout {
+    padding-top: 35px;
+}
+.header_description {
+    padding-top: 70px;
+    max-width: 730px;
+    margin: 0 auto;
+}
+.header_mobile {
+    display: none;
+}
+.h1 {
+    color: #e17976;
+}
+.header_text {
+    padding: 50px;
+}
+.card {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-text {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.card_price {
+    color: white;
+}
+.card_price__old {
+    color: white;
+}
+.btn-primary {
+    text-transform: uppercase;
+    background: #e17976;
+    border-color: #e17976;
+    padding: 5px 35px;
+}
+.button_mobile {
+    padding: 20px 85px;
+    margin-bottom: 30px;
+}
+.btn_popup {
+    display: none;
+}
+.h2 {
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.modal_text {
+    color: #e17976;
+}
+.comments {
+    background: white;
+    margin-top: 30px;
+}
+.comments_layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comments_banner {
+    padding: 0;
+    margin-top: -15px;
+}
+.comments_avatar {
+    border-radius: 50%;
+    width: 50px;
+}
+.comments_item {
+    display: flex;
+    padding-top: 20px;
+}
+.comments_item__answer {
+    display: flex;
+    padding-left: 100px;
+}
+.comments_avatar {
+    align-self: baseline;
+}
+.comments_name {
+    color: #778eb7;
+}
+.comments_like {
+    color: #dfdfdf;
+}
+.comments_data {
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.comments_text {
+    margin: 0 auto;
+    padding: 5px;
+    background: #eef0f2;
+    border-radius: 15px;
+    margin-left: 10px;
+    padding-left: 15px;
+    max-width: 450px;
+}
+.feedback_title {
+    padding-top: 40px;
+}
+.feedback_subtitle {
+    color: #797a7b;
+}
+.feedback_symbol {
+    color: red;
+}
+.feedback_description {
+    max-width: 600px;
+    padding-top: 55px;
+}
+.btn_feedback {
+    background: #76b941;
+    border-color: #76b941;
+    margin-left: 105px;
+    margin-top: 55px;
+}
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.form-row {
+    justify-content: center;
+    margin: 0;
+}
+.footer {
+    background: #222222;
+}
+.footer_layout {
+    max-width: 960px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-footer {
+    justify-content: center;
+}
+.footer_social {
+    display: flex;
+}
+.footer_information {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.footer_copyright,
+.footer_time,
+.footer_text {
+    color: white;
+    font-size: 12px;
+}
+.fa-facebook-square {
+    color: #aaacaf;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.footer_sponsors {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.fa-apple-pay,
+.fa-app-store,
+.fa-amazon,
+.fa-adn {
+    color: white;
+    font-size: 80px;
+}
+.fa-cc-visa,
+.fa-cc-amex,
+.fa-cc-mastercard,
+.fa-cc-paypal {
+    color: orange;
+    font-size: 50px;
+}
+@media (max-width: 575px) {
+    .header_time {
+        display: none;
+    }
+    .header_logo {
+        display: flex;
+        justify-content: center;
+    }
+    .header_mobile {
+        display: block;
+    }
+    .comments_banner {
+        display: none;
+    }
+    .footer_description,
+    .footer_social,
+    .footer_information,
+    .footer_sponsors,
+    .footer_layer {
+        display: none;
+    }
+    .footer_logo {
+        display: flex;
+        justify-content: center;
+    }
+    .btn_popup {
+        display: block;
+    }
+    .btn_main {
+        display: none;
+    }
+}
